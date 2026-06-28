@@ -1,0 +1,9 @@
+body{
+    background:#0d0f14;
+    color: white;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width:1100px;
+}

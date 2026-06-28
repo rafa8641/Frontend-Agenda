@@ -1,0 +1,62 @@
+body{
+    background:#f5f7fb;
+}
+
+.container-principal{
+    max-width:1150px;
+    margin:35px auto;
+    padding: 0 20px;
+}
+
+.topo-contatos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.btn-custom{
+    background:#0b5ed7 !important;
+    border:none !important;
+    border-radius:12px !important;
+    height:46px;
+    padding:0 24px !important;
+    font-weight:600;
+}
+
+.btn-custom:hover{
+    background:#4F84FF!important;
+}
+
+/* Contador */
+
+.contador{
+    display:flex;
+    align-items:center;
+    gap:16px;
+}
+
+.contador-icone{
+    width:42px;
+    height:42px;
+    border-radius:12px;
+    background:#1D2742;
+    color:#0b5ed7 ;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+}
+
+.contador small{
+    color:#8A90B8;
+    display:block;
+    margin-bottom:2px;
+}
+
+.contador h2{
+    color:white;
+    margin:0;
+    font-size:34px;
+    font-weight:700;
+}

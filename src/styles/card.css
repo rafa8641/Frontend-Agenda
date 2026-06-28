@@ -1,0 +1,108 @@
+.contact-card{
+    background:#171C28 !important;
+    border:1px solid #2B3043 !important;
+    border-radius:18px !important;
+    padding:22px !important;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+    transition:.25s;
+}
+
+.contact-card:hover{
+    transform:translateY(-3px);
+    border-color:#4F84FF !important;
+    box-shadow:0 12px 28px rgba(79,132,255,.18);
+}
+
+.avatar{
+    width:60px;
+    height:60px;
+    min-width:60px;
+    border-radius:50%;
+    background:linear-gradient(135deg,#4F84FF,#2E65F3);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    font-weight:700;
+}
+
+.nome{
+    margin:0;
+    margin-bottom:8px;
+    color:#FFFFFF;
+    font-size:20px;
+    font-weight:700;
+}
+
+.info{
+    color:#A8B0C8;
+    font-size:14px;
+}
+
+.info div{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    margin:6px 0;
+}
+
+.info i{
+    color:#4F84FF;
+}
+
+.acoes{
+    display:flex;
+    gap:10px;
+}
+
+.btn-icon{
+    width:42px;
+    height:42px;
+    border:none;
+    border-radius:12px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:.2s;
+}
+
+.editar{
+    background:#233252;
+    color:#4F84FF;
+}
+
+.editar:hover{
+    background:#4F84FF;
+    color:white;
+}
+
+.excluir{
+    background:#3A2328;
+    color:#FF6B6B;
+}
+
+.excluir:hover{
+    background:#FF5C5C;
+    color:white;
+}
+
+.whatsapp{
+    background:#1F3A2D;
+    color:#25D366;
+}
+
+.whatsapp:hover{
+    background:#25D366;
+    color:white;
+}
+
+.card-content{
+    display:flex;
+    align-items:center;
+}
+
+.card-content > div:nth-child(2){
+    flex:1;
+    margin-left:18px;
+}

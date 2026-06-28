@@ -1,0 +1,138 @@
+/* Página */
+
+.login-page{
+    min-height:100vh;
+    background:#0F1118;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Container */
+
+.login-container{
+    width:420px;
+}
+
+.login-container form{
+    background:#171C28;
+    border:1px solid #2B3043;
+    border-radius:16px;
+    padding:35px;
+}
+
+/* Cabeçalho */
+
+.login-header{
+    text-align:center;
+    margin-bottom:35px;
+}
+
+.login-header h1{
+    color:#FFFFFF;
+    font-size:38px;
+    font-weight:700;
+    margin-top:20px;
+}
+
+.login-header p{
+    color:#7E84A3;
+    font-size:17px;
+}
+
+/* Ícone */
+
+.login-icon{
+    width:64px;
+    height:64px;
+    margin:auto;
+    border-radius:18px;
+    background:#161B28;
+    border:1px solid #2E65F3;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-icon i{
+    color:#4F84FF;
+    font-size:30px;
+}
+
+/* Formulário */
+
+.form-label{
+    color:#7E84A3;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:2px;
+}
+
+.form-control{
+    background:#23283A !important;
+    border:1px solid #31374C !important;
+    border-left:none !important;
+    color:#FFFFFF !important;
+}
+
+.form-control::placeholder{
+    color:#8A90B8 !important;
+    opacity: 1;
+}
+
+.form-control:focus{
+    background:#23283A;
+    color:white;
+    border-color:#4E7BFF !important;
+    box-shadow:none;
+}
+
+.input-container{
+    position:relative;
+}
+
+.input-icon{
+    position:absolute;
+    left:16px;
+    top:50%;
+    transform:translateY(-50%);
+    color:#8A90B8;
+    font-size:18px;
+    pointer-events:none;
+}
+
+.login-input{
+    height:52px;
+    padding-left:48px !important;
+
+    background:#23283A !important;
+    border:1px solid #31374C !important;
+    color:#fff !important;
+}
+
+.login-input::placeholder{
+    color:#8A90B8 !important;
+}
+
+.login-input:focus{
+    background:#23283A !important;
+    color:#fff !important;
+    border-color:#4F84FF !important;
+    box-shadow:0 0 0 .15rem rgba(79,132,255,.15) !important;
+}
+
+/* Botão */
+
+.btn-primary{
+
+    height:52px;
+    border:none;
+    border-radius:10px;
+    background:#4F84FF;
+    font-weight:600;
+    margin-top:10px;
+}
+
+.btn-primary:hover{
+    background:#6A96FF;
+}
