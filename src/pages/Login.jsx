@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import api from "../services/api";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
@@ -79,11 +80,30 @@ export default function Login() {
                     <Button variant="primary" type="submit" className="w-100">
                         <i className="bi bi-box-arrow-in-right"></i> Entrar
                     </Button>
+
+                    <div className="text-center mt-4">
+
+                        <span className="text-secondary">
+                            Ainda não possui conta?
+                        </span>
+
+                        <br/>
+
+                        <Link
+                            to="/cadastro"
+                            className="text-decoration-none"
+                        >
+                            Criar Conta
+                        </Link>
+
+                    </div>
                 </Form>
 
             </div>
 
         </div>
+        
+
     );
 }
 
